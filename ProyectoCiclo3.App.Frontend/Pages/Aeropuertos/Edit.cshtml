@@ -1,11 +1,11 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.EditBusModel
+@model ProyectoCiclo3.App.Frontend.Pages.EditAeropuertoModel
 @{
-    var bus = Model.Bus;
+    var aeropuerto = Model.Aeropuerto;
 }
  
 <div class="text-center">
-<form action="">
+<form action="POST">
   <label for="id" class="form-label">id:</label>
   <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@aeropuerto.id">
 
@@ -13,7 +13,7 @@
   <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" asp-for="@aeropuerto.nombre">
 
   <label for="ciudad" class="form-label">Ciudad:</label>
-  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder=Ciudad" asp-for="@aeropuerto.ciudad">
+  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad" asp-for="@aeropuerto.ciudad">
 
   <label for="pais" class="form-label">Pais:</label>
   <input type="text" class="form-control" id="pais" name="pais" placeholder="Pais" asp-for="@aeropuerto.pais">
@@ -23,3 +23,5 @@
 
   <label for="Modelo" class="form-label">Coordenada Y:</label>
   <input type="number" class="form-control" id="coordenada_y" name="coordenada_y" placeholder="Coordenada Y" asp-for="@aeropuerto.coordenada_y">
+</form>
+</div>

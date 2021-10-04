@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
  
 namespace HolaWeb.App.Frontend.Pages
 {
-    public class FormBusModel : PageModel
+    public class FormAeropuertosModel : PageModel
     {
         public void OnGet()
         {

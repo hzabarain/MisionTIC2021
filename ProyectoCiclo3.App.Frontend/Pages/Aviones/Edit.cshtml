@@ -1,25 +1,28 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.EditBusModel
+@model ProyectoCiclo3.App.Frontend.Pages.EditAvionModel
 @{
-    var bus = Model.Bus;
+    var avion = Model.Avion;
 }
- 
 <div class="text-center">
-<form action="">
-  <label for="id" class="form-label">id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@aeropuerto.id">
+  <form method="POST">
+    <label for="id" class="form-label">Id:</label>
+    <input type="text" class="form-control" id="id" name="id" placeholder="Id" asp-for="@avion.id">
 
-  <label for="nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" asp-for="@aeropuerto.nombre">
+    <label for="marca" class="form-label">Marca:</label>
+   <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" asp-for="@avion.marca">
 
-  <label for="ciudad" class="form-label">Ciudad:</label>
-  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder=Ciudad" asp-for="@aeropuerto.ciudad">
+    <label for="modelo" class="form-label">Modelo:</label>
+    <input type="number" class="form-control" id="modelo" name="modelo" placeholder="Modelo" asp-for="@avion.modelo">
 
-  <label for="pais" class="form-label">Pais:</label>
-  <input type="text" class="form-control" id="pais" name="pais" placeholder="Pais" asp-for="@aeropuerto.pais">
+    <label for="numero_asientos" class="form-label">Numeros de asientos: </label>
+    <input type="number" class="form-control" id="numero_asientos" name="numero_asientos" placeholder="Numero asientos" asp-for="@avion.numero_asientos">
 
-  <label for="coordenada_x" class="form-label">Coordenada X:</label>
-  <input type="number" class="form-control" id="coordenada_x" name="coordenada_x" placeholder="Cooordenada X" asp-for="@aeropuerto.coordenada_x">
-
-  <label for="Modelo" class="form-label">Coordenada Y:</label>
-  <input type="number" class="form-control" id="coordenada_y" name="coordenada_y" placeholder="Coordenada Y" asp-for="@aeropuerto.coordenada_y">
+    <label for="numero_banos" class="form-label">Numero de baños:</label>
+    <input type="number" class="form-control" id="numero_banos" name="numero_banos" placeholder="Numero baños" asp-for="@avion.numero_banos">
+    
+    <label for="capacidad_maxima" class="form-label">Capacidad maxima:</label>
+    <input type="number" class="form-control" id="capacidad_max_carga" name="capacidad_max_carga" placeholder="Capacidad maxima" asp-for="@avion.capacidad_max_carga">
+    <hr>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</div>
