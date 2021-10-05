@@ -37,7 +37,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             {
             Avion = repositorioAviones.Update(Avion);
             }
-            return Page();
+            return RedirectToPage("./List");
         }
     }
 }
