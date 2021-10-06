@@ -8,7 +8,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
     public class RepositorioAeropuertos
     {
         List<Aeropuertos> aeropuertos;
- 
+  private readonly AppContext _appContext = new AppContext(); 
     public RepositorioAeropuertos()
         {
            aeropuertos= new List<Aeropuertos>()
@@ -24,7 +24,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
  
         public IEnumerable<Aeropuertos> GetAll()
         {
-            return aeropuertos;
+              return _appContext.Aeropuertos;
         }
  
         public Aeropuertos GetAeropuertoWithId(int id){

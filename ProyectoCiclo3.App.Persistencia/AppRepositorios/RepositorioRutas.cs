@@ -8,19 +8,8 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
     public class RepositorioRutas
     {
         List<Rutas> rutas;
- 
-    public RepositorioRutas()
-        {
-           rutas= new List<Rutas>()
-            {
-                new Rutas{id=1,origen=1,destino= 2,tiempo_estimado= 4},
-                new Rutas{id=2,origen=2,destino= 3,tiempo_estimado= 1},
-                new Rutas{id=3,origen=4,destino=2,tiempo_estimado= 2}
-            };
-
-       
-
-        }
+ private readonly AppContext _appContext = new AppContext(); 
+    
  
         public IEnumerable<Rutas> GetAll()
         {
