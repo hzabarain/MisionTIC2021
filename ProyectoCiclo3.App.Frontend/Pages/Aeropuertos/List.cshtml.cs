@@ -11,17 +11,19 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class ListAeropuertosModel : PageModel
     {
-  private readonly RepositorioAeropuertos repositorioRutas;
-        public IEnumerable<Aeropuertos> Rutass {get;set;}
+  private readonly RepositorioAeropuertos repositorioAeropuertos;
+  
+[BindProperty]
+        public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
  
-    public ListAeropuertosModel(RepositorioAeropuertos repositorioAviones)
+    public ListAeropuertosModel(RepositorioAeropuertos repositorioAeropuertos)
     {
         this.repositorioAeropuertos=repositorioAeropuertos;
      }
  
     public void OnGet()
     {
-        Rutas=repositorioAeropuertos.GetAll();
+    repositorioAeropuertos.GetAll();
     }
 
     public IActionResult OnPost()

@@ -8,30 +8,18 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
     public class RepositorioAeropuertos
     {
         List<Aeropuertos> aeropuertos;
-  private readonly AppContext _appContext = new AppContext(); 
-    public RepositorioAeropuertos()
-        {
-           aeropuertos= new List<Aeropuertos>()
-            {
-                new Aeropuertos{id=1,nombre="SMR",ciudad="Santa Marta",pais="Colombia",coord_x= 74, coord_y= 1784},
-                new Aeropuertos{id=2,nombre="BOG",ciudad="Bogota",pais="Colombia",coord_x= 14, coord_y= 1284},
-                new Aeropuertos{id=3,nombre="STN",ciudad="Santiago",pais="Chile", coord_x= 24, coord_y= 1584}
-            };
-
-
+        private readonly AppContext _appContext = new AppContext(); 
      
-        }
- 
         public IEnumerable<Aeropuertos> GetAll()
         {
               return _appContext.Aeropuertos;
         }
  
         public Aeropuertos GetAeropuertoWithId(int id){
-            return aeropuertos.SingleOrDefault(b => b.id == id);
+              return _appContext.Aeropuertos.Find(id);
         }
         public Aeropuertos Update(Aeropuertos newAeropuerto){
-            var aeropuerto= aeropuertos.SingleOrDefault(b => b.id == newAeropuerto.id);
+         var aeropuerto = _appContext.Aeropuertos.Find(newAeropuerto.id);
             if(aeropuerto != null){
                 aeropuerto.nombre =newAeropuerto.nombre;
                 aeropuerto.ciudad=newAeropuerto.ciudad;
@@ -42,5 +30,11 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             }
         return aeropuerto;
         }
+         public  Aeropuertos Create(Aeropuertos newAeropuerto)
+         {
+        var addAeropuerto = _appContext.Aeropuertos.Add(newAeropuerto);
+        _appContext.SaveChanges();
+        return addAeropuerto.Entity;
+         }
     }
 }
