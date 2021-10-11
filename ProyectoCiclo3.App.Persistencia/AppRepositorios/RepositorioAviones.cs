@@ -16,7 +16,8 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return _appContext.Aviones;
         }
  
-    public Aviones GetAvionWithId(int id){
+    public Aviones GetAvionWithId(int id)
+    {
         return _appContext.Aviones.Find(id);
     }
         
@@ -28,15 +29,9 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         return addAvion.Entity;
     }
 
-    public void Delete(int id)
-    {
-    var avion = _appContext.Aviones.Find(id);
-    if (avion == null)
-        return;
-    _appContext.Aviones.Remove(avion);
-    _appContext.SaveChanges();
-    }
-public Aviones Update(Aviones newAvion){
+   
+public Aviones Update(Aviones newAvion)
+{
         var avion = _appContext.Aviones.Find(newAvion.id);
         if(avion != null){
             avion.marca = newAvion.marca;
@@ -46,9 +41,19 @@ public Aviones Update(Aviones newAvion){
             avion.capacidad_max_carga  = newAvion.capacidad_max_carga ;
             //Guardar en base de datos
             _appContext.SaveChanges();
-        }
+                        }
     return avion;
 }
+ public void Delete(int id)
+    {
+    var avion = _appContext.Aviones.Find(id);
+    if (avion == null)
+        return;
+    _appContext.Aviones.Remove(avion);
+    _appContext.SaveChanges();
     }
+
+    //Estos dos son de cierre
+     }
     
 }

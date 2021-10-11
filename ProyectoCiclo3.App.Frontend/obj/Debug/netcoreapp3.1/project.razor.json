@@ -14400,6 +14400,102 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "ProyectoCiclo3.App.Frontend",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Rutas\\Edit.cshtml",
+      "TargetPath": "Pages\\Rutas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aeropuertos\\Create.cshtml",
+      "TargetPath": "Pages\\Aeropuertos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aeropuertos\\Details.cshtml",
+      "TargetPath": "Pages\\Aeropuertos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\List.cshtml",
+      "TargetPath": "Pages\\Aviones\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aeropuertos\\List.cshtml",
+      "TargetPath": "Pages\\Aeropuertos\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\Edit.cshtml",
+      "TargetPath": "Pages\\Aviones\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Rutas\\List.cshtml",
+      "TargetPath": "Pages\\Rutas\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Rutas\\Details.cshtml",
+      "TargetPath": "Pages\\Rutas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Rutas\\Create.cshtml",
+      "TargetPath": "Pages\\Rutas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\Details.cshtml",
+      "TargetPath": "Pages\\Aviones\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\Create.cshtml",
+      "TargetPath": "Pages\\Aviones\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aeropuertos\\Edit.cshtml",
+      "TargetPath": "Pages\\Aeropuertos\\Edit.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
