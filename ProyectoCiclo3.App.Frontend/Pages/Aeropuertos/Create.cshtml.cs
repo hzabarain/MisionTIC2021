@@ -16,9 +16,6 @@ namespace ProyectoCiclo3.App.Frontend.Pages
       [BindProperty]
               public Aeropuertos aeropuerto{get;set;}
 
-
-      
-
         public FormAeropuertoModel(RepositorioAeropuertos repositorioAeropuertos)
        {
             this.repositorioAeropuertos=repositorioAeropuertos;
