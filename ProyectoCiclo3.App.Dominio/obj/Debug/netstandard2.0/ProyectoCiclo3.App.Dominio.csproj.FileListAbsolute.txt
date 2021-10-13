@@ -16,3 +16,12 @@ C:\Users\mario\Downloads\MisionTIC2021-master\MisionTIC2021-master\ProyectoCiclo
 C:\Users\mario\Downloads\MisionTIC2021-master\MisionTIC2021-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\mario\Downloads\MisionTIC2021-master\MisionTIC2021-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\mario\Downloads\MisionTIC2021-master\MisionTIC2021-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\Users\mario\Desktop\Nueva carpeta\MisionTIC2021\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb

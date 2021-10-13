@@ -13,7 +13,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
        private readonly RepositorioAviones repositorioAviones;
       [BindProperty]
-              public Avion Avion {get;set;}
+              public Aviones Avion {get;set;}
  
         public FormAvionModel(RepositorioAviones repositorioAviones)
        {
