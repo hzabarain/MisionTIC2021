@@ -29,5 +29,6 @@ namespace ProyectoCiclo3.App.Frontend.Pages
           repositorioRutas.Create(Ruta);
             return RedirectToPage("./List");
         }
+        public IEnumerable<Rutas> Rutas {get;set;}
     }
 }

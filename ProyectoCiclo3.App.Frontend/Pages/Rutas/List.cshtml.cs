@@ -12,10 +12,10 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class ListRutasModel : PageModel
     {
       private readonly RepositorioRutas repositorioRutas;
-      
-[BindProperty]
-        public Rutas Ruta {get;set;}
+          
         public IEnumerable<Rutas> Rutas {get;set;}
+        [BindProperty]
+        public Rutas Ruta {get;set;}
  
     public ListRutasModel(RepositorioRutas repositorioRutas)
     {

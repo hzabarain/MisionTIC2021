@@ -30,8 +30,8 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
     }
 
    
-public Aviones Update(Aviones newAvion)
-{
+   public Aviones Update(Aviones newAvion)
+   {
         var avion = _appContext.Aviones.Find(newAvion.id);
         if(avion != null){
             avion.marca = newAvion.marca;

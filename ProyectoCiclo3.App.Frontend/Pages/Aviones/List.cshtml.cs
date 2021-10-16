@@ -12,10 +12,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class ListAvionesModel : PageModel
     {
       private readonly RepositorioAviones repositorioAviones;
-      
-[BindProperty]
-        public Aviones Avion {get;set;}
-                public IEnumerable<Aviones> Aviones {get;set;}
+    public IEnumerable<Aviones> Aviones {get;set;}
+    [BindProperty]
+    public Aviones Avion {get;set;}
  
     public ListAvionesModel(RepositorioAviones repositorioAviones)
     {

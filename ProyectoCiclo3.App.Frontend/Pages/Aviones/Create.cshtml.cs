@@ -33,7 +33,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
           repositorioAviones.Create(Avion);
             return RedirectToPage("./List");
         }
-
+public IEnumerable<Aviones> Aviones {get;set;}
 
     }
 }

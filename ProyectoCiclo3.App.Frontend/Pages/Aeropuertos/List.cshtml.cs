@@ -12,10 +12,10 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class ListAeropuertosModel : PageModel
     {
   private readonly RepositorioAeropuertos repositorioAeropuertos;
-  
-[BindProperty]
-        public Aeropuertos Aeropuerto {get;set;}
-                public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
+   
+        public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
+        [BindProperty]
+         public Aeropuertos Aeropuerto {get;set;}   
  
     public ListAeropuertosModel(RepositorioAeropuertos repositorioAeropuertos)
     {

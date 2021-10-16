@@ -5,8 +5,19 @@
  
 <h1>Listado de Aviones</h1>
 <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Numero de Baños</th>
+      <th scope="col">Numero de Asientos</th>
+      <th scope="col">Capacidad Maxima de Carga (Ton)</th>
+    </tr>
+  </thead>
     @foreach (var avion in Model.Aviones)
     {
+         
         <tr>
             <td>@avion.id</td>
             <td>@avion.marca</td>
@@ -14,11 +25,14 @@
             <td>@avion.numero_banos</td>
             <td>@avion.numero_asientos</td>
             <td>@avion.capacidad_max_carga</td>
-           
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-avionId="@avion.id"><i class="fas fa-adjust"></i>Ver</a>
               <a class="btn btn-info" asp-page="./Edit" asp-route-avionId="@avion.id"><i class="fas fa-adjust"></i>Editar</a>
-              <a class="btn btn-danger" href="">Eliminar</a>
+              <form method="POST">
+            <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@avion.id">
+              <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+            </form>
+
               </td>
         </tr>
     }

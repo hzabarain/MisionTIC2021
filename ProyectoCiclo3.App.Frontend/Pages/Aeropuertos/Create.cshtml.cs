@@ -30,5 +30,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
          repositorioAeropuertos.Create(Aeropuerto);
             return RedirectToPage("./List");
     }
+    
+public IEnumerable<Aeropuertos> Aeropuertos {get;set;}
 }
 }

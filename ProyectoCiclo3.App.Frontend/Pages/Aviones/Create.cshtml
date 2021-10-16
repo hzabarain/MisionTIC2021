@@ -8,15 +8,15 @@
     @* <label for="id" class="form-label">Id:</label>
     <input type="text" class="form-control" id="id" placeholder="Id" asp-for="@avion.id"> *@
     <label for="marca" class="form-label">Marca:</label>
-   <input type="text" class="form-control" id="marca" placeholder="Marca" asp-for="@avion.marca">
+   <input type="text" class="form-control" id="marca" placeholder="Marca" asp-for="@avion.marca" required>
     <label for="modelo" class="form-label">Modelo:</label>
-    <input type="number" class="form-control" id="modelo" placeholder="Modelo" asp-for="@avion.modelo">
+    <input type="number" class="form-control" id="modelo" placeholder="Modelo" asp-for="@avion.modelo" required> 
     <label for="numero_asientos" class="form-label">Numeros de asientos: </label>
-    <input type="number" class="form-control" id="numero_asientos" placeholder="Numero asientos" asp-for="@avion.numero_asientos">
+    <input type="number" class="form-control" id="numero_asientos" placeholder="Numero asientos" asp-for="@avion.numero_asientos" required>
     <label for="numero_banos" class="form-label">Numero de baños:</label>
-    <input type="number" class="form-control" id="numero_banos" placeholder="Numero baños" asp-for="@avion.numero_banos">
+    <input type="number" class="form-control" id="numero_banos" placeholder="Numero baños" asp-for="@avion.numero_banos" required>
     <label for="capacidad_maxima" class="form-label">Capacidad maxima:</label>
-    <input type="number" class="form-control" id="capacidad_maxima" placeholder="Capacidad maxima" asp-for="@avion.capacidad_max_carga">
+    <input type="number" class="form-control" id="capacidad_maxima" placeholder="Capacidad maxima" asp-for="@avion.capacidad_max_carga" required>
     <hr>
     <button type="submit" class="btn btn-success">Enviar</button>
   </form>
