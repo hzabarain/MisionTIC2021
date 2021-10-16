@@ -14442,8 +14442,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14454,6 +14464,16 @@
     {
       "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\Edit.cshtml",
       "TargetPath": "Pages\\Aviones\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14487,8 +14507,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Pages\\Aviones\\Create.cshtml",
       "TargetPath": "Pages\\Aviones\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "j:\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
