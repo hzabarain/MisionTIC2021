@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1c9f8225-c99c-4757-b2fd-60b90c58e968/resourceGroups/MisionTic2021/providers/Microsoft.Web/sites/ProyectoMisionTic",
+    "appService.deploySubpath": "ProyectoCiclo3.App.Frontend\\publish"
+}
